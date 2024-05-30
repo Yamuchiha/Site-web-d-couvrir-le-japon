@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Recherchez votre vol ici</title>
+        <style>
+              html { 
+              background: url(japan-tokyo-imperial-palace.jpg) no-repeat center fixed; 
+              background-size: cover;
+            }
+            th { 
+                color: white;
+                font-size: 130%;
+            }
+            input {
+                
+                font-size: 150%;
+                text-align: center;
+                
+            }
+            input:hover {
+                font-size: 170%;
+                transition: 0.4s;
+                opacity: 50%;
+                border: 100%;
+
+            }
+            #recherche {
+                background-color: rgb(245, 3, 144);
+                opacity: 100%;
+            }
+            #reset {
+                background-color: rgb(30, 255, 0);
+                opacity: 100%;
+                
+            }
+            form {
+                margin-top: 9%;
+                margin-left: 7%
+            }
+            table {
+                opacity: 0.6;
+                background-size: %;
+            }
+            .espace {
+                margin-top: 25%;
+            }
+            h1 {
+                text-align: center;
+                color: rgb(241, 245, 245);
+                font-size: 300%;
+                margin-top: 5%
+            }
+     
+
+        </style>
+    
+            
+    </head>
+    <body>
+        <h1>RECHERCHER VOTRE VOL ICI</h1>
+        <form>
+        <table width="1000" bgcolor="black" height="250">
+            <th valign="bottom">Départ</th>
+            <th valign="bottom">Destination</th>
+            <th valign="bottom">Date de départ</th>
+            <th valign="bottom">Date de retour</th>
+            <tr>
+                <td><input type="text" value="Ville ou aéroport" id="un"></td>
+                <td><input type="text" value="Ville, pays, ..."></td>
+                <td><input type="date" value="\ Jeu, 4 Mar"></td>
+                <td><input type="date"></td>
+                <td><input type="reset" id="reset"></td>
+            </tr>
+            <tr>
+                <td class="espace"><input type="text" value="; 2 adultes, 1 enfant"></td>
+                <td><input type="text" value="_ N'importe quelle classe"></td>
+                <td><input type="submit" value="recherche" id="recherche"></td>
+            </tr>
+            <tr>
+                
+            </tr>
+        </table>
+    </form>
+    
+    </body>
+</html>
